@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | The Coffee Shop</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>The Coffee Shop</h1>
+        <img src="images/logo.png" alt="The Coffee Shop logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html" class="active">Services</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main class="content">
+        <section>
+            <h2>Our Services and Features</h2>
+            <ul>
+                <li>Espresso: A strong, concentrated shot of pure coffee served in a small cup.</li>
+                <li>Americano: A shot of espresso diluted with hot water, creating a lighter coffee.</li>
+                <li>Latte: A creamy coffee drink made with espresso and steamed milk, often topped with foam.</li>
+                <li>Cappuccino: Similar to a latte, but with more foam and a stronger coffee flavor.</li>
+                <li>Macchiato: A shot of espresso with a small amount of steamed milk and foam.</li>
+                <li>Fresh pastries</li>
+                <li>Free Wi-Fi for remote workers</li>
+                <li>Comfortable seating area</li>
+                <li>Specialty coffee selections</li>
+            </ul>
+        </section>
+
+        <section class="gallery-section">
+            <h2>Coffee Gallery</h2>
+            <div class="gallery-container">
+                <button id="gallery-btn" type="button">Load Featured Coffee</button>
+                <div id="image-display-area"></div>
+            </div>
+        </section>
+
+
+        <section class="faq-section">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <button class="faq-toggle" aria-expanded="false">Do you offer decaf options? <span class="icon">+</span></button>
+                <div class="faq-answer">
+                    <p>Yes! We offer decaf espresso and coffee beans for all our drinks.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 The Coffee Shop. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

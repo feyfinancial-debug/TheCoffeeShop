@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | The Coffee Shop</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>The Coffee Shop</h1>
+        <img src="images/logo.png" alt="The Coffee Shop logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
+    <main class="content">
+        <section style="text-align: center;">
+            <h1>Contact Us</h1>
+           
+            <form id="contact-form">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" placeholder="Enter your name" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" placeholder="Enter your email" required><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" placeholder="Enter your message" required></textarea><br><br>
+                <button type="submit">Send</button>
+            </form>
+            <p id="form-feedback" aria-live="polite" style="font-weight: bold; margin-top: 15px;"></p>
+            
+            <h3>Contact Information</h3>
+            <p>Email: TheCoffeeShop@gmail.com</p>
+            <p>Phone: +1 234 567 8901</p>
+            <p>Address: 123 Coffee Street</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 The Coffee Shop. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

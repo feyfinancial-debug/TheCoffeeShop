@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     { src: "./images/Cappuccino.jpg", alt: "Cappuccino coffee" }, 
     { src: "./images/Latte.jpg", alt: "Latte coffee" }, 
     { src: "./images/Macchiato.jpg", alt: "Macchiato coffee" }, 
-    { src: "./images/fresh pastries.jpg", alt: "Fresh pastries" }, 
+    { src: "./images/Fresh pastries.jpg", alt: "Fresh pastries" }, 
     { src: "./images/Comfortable seating.jpg", alt: "Comfortable seating area" }, 
     { src: "./images/Specialty coffee selections.jpg", alt: "Specialty coffee selection" }, 
     { src: "./images/Free Wi-Fi.jpg", alt: "Free Wi-Fi" }
